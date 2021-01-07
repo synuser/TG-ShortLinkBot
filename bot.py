@@ -28,7 +28,7 @@ async def start(bot, update):
         f"**Hi {update.chat.first_name}!**\n\n"
         "I'm shortlink bot. Just send me link and get adsless short link!\n\n"
 
-         "Devoloper: @synuser")
+         "Developer: @synuser")
 
 
 @bot.on_message(Filters.regex(r'https?://[^\s]+') & Filters.private)
